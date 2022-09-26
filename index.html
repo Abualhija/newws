@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/scss/su-homepage-SCSS.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.givecloud.co/npm/odometer@0.4.8/themes/odometer-theme-default.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>SU Homepage</title>
+  </head>
+  <body>
+    <div class="all-elements">
+      <!-- START TOP NAVBAR -->
+      <div id="top-nav" class="top-nav">
+        <div class="container">
+          <div class="py-3 d-flex justify-content-between">
+            <div class="logo">
+              <img
+                src="images/logo/logo-image.png"
+                alt="SU University Logo"
+                class="img-fluid"
+              />
+            </div>
+            <div class="icons d-flex">
+              <ul class="wrapper list-unstyled mr-40 d-none d-lg-flex">
+                <li class="icon linkedin">
+                  <span class="tooltip">Linkedin</span>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="icon youtube">
+                  <span class="tooltip">Youtube</span>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li class="icon instagram">
+                  <span class="tooltip">Instagram</span>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="icon twitter">
+                  <span class="tooltip">Twitter</span>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="icon facebook">
+                  <span class="tooltip">Facebook</span>
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                </li>
+              </ul>
+              <div class="search">
+                <div class="center-out">
+                  <div class="center-inner">
+                    <label class="search-anim" for="input_search">
+                      <input id="input_search" type="text" />
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END TOP NAVBAR   -->
+
+      <!-- START MAIN NAVBAR -->
+      <nav class="navbar navbar-expand-lg justify-content-end sticky-top p-1">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <div class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-3 mb-lg-0 text-uppercase">
+            <li class="nav-item">
+              <a class="active nav-link" data-section=".top-nav" href="#top-nav"
+                >about</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-section=".news" href="#news"
+                >academics</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-section=".apply-section"
+                href="#apply-section"
+                >admission</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-section=".international"
+                href="#international"
+                >international</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-section=".events" href="#events"
+                >events</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                data-section=".get-in-touch"
+                href="#get-in-touch"
+                >contact us</a
+              >
+            </li>
+            <div class="social-media social-resp p-lg-0 d-lg-none mr-40">
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+          </ul>
+        </div>
+      </nav>
+      <!-- END MAIN NAVBAR -->
+
+      <!-- START PHOTOS SLIDER -->
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner position-relative">
+          <div class="carousel-item position-relative active">
+            <img
+              src="images/sliderPhotos/slider-photo-1.png"
+              class="d-block w-100"
+              alt="Slider image"
+            />
+            <div class="carousel-caption">
+              <p class="caption-sentence text-uppercase">
+                One of the top 10 universities in design
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item position-relative">
+            <img
+              src="images/sliderPhotos/slider-photo-2.jpg"
+              class="d-block w-100"
+              alt="Slider image"
+            />
+            <div class="carousel-caption">
+              <p class="caption-sentence text-uppercase">
+                One of the top 10 universities in design
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item position-relative">
+            <img
+              src="images/sliderPhotos/slider-photo-3.png"
+              class="d-block w-100"
+              alt="Slider image"
+            />
+            <div class="carousel-caption">
+              <p class="caption-sentence text-uppercase">
+                One of the top 10 universities in design
+              </p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-target="#carouselExampleIndicators"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-target="#carouselExampleIndicators"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+      <!-- END PHOTOS SLIDER -->
+
+      <!-- START NEWS -->
+      <div id="news" class="news pt-40 pt-lg-80 mb-40 mb-lg-80">
+        <div class="container">
+          <div class="row">
+            <div class="sections-news col-12 col-sm-12 col-lg-6">
+              <div class="row">
+                <div
+                  data-aos="fade-up"
+                  class="anim-card col-12 col-sm-6 col-md-6 mb-30"
+                >
+                  <div class="box w-100 position-relative">
+                    <a class="image-link w-100" href="#">
+                      <img
+                        class="img-fluid"
+                        src="images/courses/undergraduate.png"
+                        alt="our work images"
+                      />
+                    </a>
+                    <p
+                      class="course-title text-uppercase text-center py-2 px-1"
+                    >
+                      undergraduate course
+                    </p>
+                  </div>
+                </div>
+                <div
+                  data-aos="fade-up"
+                  class="anim-card col-12 col-sm-6 col-md-6 mb-30"
+                >
+                  <div class="box w-100 position-relative">
+                    <a class="image-link w-100" href="#">
+                      <img
+                        class="img-fluid"
+                        src="images/courses/graduate.png"
+                        alt="our work images"
+                      />
+                    </a>
+                    <p
+                      class="course-title text-uppercase text-center py-2 px-1"
+                    >
+                      Graduate courses
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div
+                  data-aos="fade-up"
+                  class="anim-card col-12 col-sm-6 col-md-6 mb-30"
+                >
+                  <div class="box w-100 position-relative">
+                    <a class="image-link w-100" href="#">
+                      <img
+                        class="img-fluid"
+                        src="images/courses/international.png"
+                        alt="our work images"
+                      />
+                    </a>
+                    <p
+                      class="course-title text-uppercase text-center py-2 px-1"
+                    >
+                      International Students
+                    </p>
+                  </div>
+                </div>
+                <div
+                  data-aos="fade-up"
+                  class="anim-card col-12 col-sm-6 col-md-6 mb-30"
+                >
+                  <div class="box w-100 position-relative">
+                    <a class="image-link w-100" href="#">
+                      <img
+                        class="img-fluid"
+                        src="images/courses/scholarships.png"
+                        alt="our work images"
+                      />
+                    </a>
+                    <p
+                      class="course-title text-uppercase text-center py-2 px-1"
+                    >
+                      Scholarships
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-down"
+              class="text-left col-12 col-sm-12 col-lg-6"
+            >
+              <div class="main-news px-20 pb-3">
+                <h2
+                  class="mx-2 mt-20 mb-30 d-inline-block text-uppercase mx-auto justify-content-center"
+                >
+                  News
+                </h2>
+                <div class="news-box position-relative">
+                  <h6 class="news-publish-date mb-10">January 06, 2017</h6>
+                  <h6 class="news-title text-capitalize mb-10">
+                    Smart exhibition upends classical style
+                  </h6>
+                  <p class="news-body mb-15">
+                    Even the most casual Observer is probably acquainted with
+                    that Classical style that aesthetic anchored in the
+                    ancient...
+                  </p>
+                  <a
+                    class="news-more text-uppercase text-decoration-none mb-20"
+                    href="#"
+                  >
+                    Read more
+                  </a>
+                </div>
+                <div class="news-box position-relative">
+                  <h6 class="news-publish-date mb-10 mt-20">
+                    December 13, 2016
+                  </h6>
+                  <h6 class="news-title text-capitalize mb-10">
+                    Sciences University To Offer Now Undergraduate Major In
+                    Creative Writing
+                  </h6>
+                  <p class="news-body mb-15">
+                    The Department of English Language and Literature will offer
+                    a new undergraduate major in creative writing, beginning…
+                  </p>
+                  <a
+                    class="news-more text-uppercase text-decoration-none mb-20"
+                    href="#"
+                  >
+                    Read more
+                  </a>
+                </div>
+                <div class="news-box position-relative">
+                  <h6 class="news-publish-date mb-10 mt-20">
+                    November 13, 2016
+                  </h6>
+                  <h6 class="news-title text-capitalize mb-10">
+                    New Method Uses Heat Flow To Levitate Variety Of Objects
+                  </h6>
+                  <p class="news-body mb-15">
+                    Even the most casual observer is probably acquainted with
+                    the Classical style, that aesthetic anchored in the ancient…
+                  </p>
+                  <a
+                    class="news-more text-uppercase text-decoration-none mb-20"
+                    href="#"
+                  >
+                    Read more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END NEWS -->
+
+      <!-- START TOP BANNER  -->
+      <div
+        id="international"
+        class="international pb-40 pb-lg-80 pt-40 pt-lg-80"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4 mt-lg-0">
+              <div
+                class="prof-program d-flex flex-column text-center align-items-center"
+              >
+                <img
+                  class="img-fluid"
+                  src="images/bannerTop/profession-programs.png"
+                  alt="Profession-ready degree programs"
+                />
+                <div class="number-counter-section">
+                  <div class="progress-count d-flex align-items-center">
+                    <span
+                      class="odometer ready-programs mb-0"
+                      id="odometer"
+                      data-count="90"
+                      >00</span
+                    >
+                    <span class="ready-programs">+</span>
+                  </div>
+                </div>
+                <p class="prog-desc mb-0">
+                  Profession-ready <br />
+                  degree programs
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-lg-0">
+              <div
+                class="prof-program d-flex flex-column text-center align-items-center"
+              >
+                <img
+                  class="img-fluid"
+                  src="images/bannerTop/salary-ratio.png"
+                  alt="MBA for salary-to-debt ratio"
+                />
+                <div class="number-counter-section">
+                  <div class="progress-count d-flex align-items-center">
+                    <span class="ready-programs">#</span>
+                    <span
+                      class="odometer ready-programs mb-0"
+                      id="odometer1"
+                      data-count="1"
+                      >9</span
+                    >
+                  </div>
+                </div>
+                <p class="prog-desc mb-0">
+                  Our MBA for salary-<br />to-debt ratio
+                </p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4 mt-lg-0">
+              <div
+                class="prof-program d-flex flex-column text-center align-items-center justify-content-center"
+              >
+                <img
+                  class="img-fluid"
+                  src="images/bannerTop/alumni.png"
+                  alt="Alumni worldwide"
+                />
+                <div class="number-counter-section">
+                  <div class="progress-count d-flex align-items-center">
+                    <span
+                      class="odometer ready-programs mb-0"
+                      id="odometer2"
+                      data-count="100000"
+                      >00000</span
+                    >
+                    <span class="ready-programs">&nbsp;</span>
+                  </div>
+                </div>
+                <p class="prog-desc mb-0">
+                  Sciences University<br />alumni worldwide
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END TOP BANNER  -->
+
+      <!-- START EVENTS  -->
+      <div id="events" class="events text-center pt-40 pt-lg-80">
+        <div class="container">
+          <h2 class="d-inline-block text-uppercase mb-30">Events</h2>
+          <div class="row">
+            <div
+              data-aos="fade-up"
+              class="col-xs-12 my-3 col-md-6 col-lg-4 my-lg-0 d-flex"
+            >
+              <div
+                class="card position-relative d-flex justify-content-evenly rounded-0"
+                style="width: 100%"
+              >
+                <div class="event-top-section">
+                  <img
+                    src="images/events/postgraduate-event.png"
+                    class="card-img-top"
+                    alt="Event Photo"
+                  />
+                  <span class="event-icon fa-layers fa-fw position-absolute">
+                    <i class="fa-solid fa-calendar"></i>
+                    <span
+                      class="event-day fa-layers-text fa-inverse"
+                      data-fa-transform="shrink-8 "
+                      >18
+                    </span>
+                    <span
+                      class="event-month fa-layers-text fa-inverse"
+                      data-fa-transform="shrink-8 "
+                      >March
+                    </span>
+                  </span>
+                </div>
+                <div class="card-body text-left position-relative pt-0 mb-13">
+                  <div class="event-time-place d-flex">
+                    <h6 class="event-time mt-10 mb-10">
+                      2:00 P.M-4:00 P.M |
+                      <span class="event-place">Ajloun Campus</span>
+                    </h6>
+                  </div>
+                  <h5 class="card-title text-capitalize mb-10">
+                    postgraduate drop-in evening
+                  </h5>
+                  <p class="card-text">
+                    Our Postgraduate Drop-in Evenings are an excellent
+                    opportunity for you to meet our staff and talk to current
+                    students…
+                  </p>
+                  <a
+                    class="learn-more text-uppercase text-right d-block text-decoration-none mr-20"
+                    href="#"
+                  >
+                    Learn more
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              class="col-xs-12 my-3 col-md-6 col-lg-4 my-lg-0 justify-content-center d-flex"
+            >
+              <div
+                class="card position-relative d-flex justify-content-evenly rounded-0"
+                style="width: 100%"
+              >
+                <div class="event-top-section">
+                  <img
+                    src="images/events/undergraduate-event.png"
+                    class="card-img-top"
+                    alt="Event Photo"
+                  />
+                  <span class="event-icon fa-layers fa-fw position-absolute">
+                    <i class="fa-solid fa-calendar"></i>
+                    <span
+                      class="event-day fa-layers-text fa-inverse"
+                      data-fa-transform="shrink-8 "
+                      >07
+                    </span>
+                    <span
+                      class="event-month fa-layers-text fa-inverse"
+                      data-fa-transform="shrink-8 "
+                      >May
+                    </span>
+                  </span>
+                </div>
+                <div class="card-body text-left position-relative pt-0 mb-13">
+                  <div class="event-time-place d-flex">
+                    <h6 class="event-time mt-10 mb-10">
+                      2:00 P.M-4:00 P.M |
+                      <span class="event-place">Irbid Campus</span>
+                    </h6>
+                  </div>
+                  <h5 class="card-title text-capitalize mb-10">
+                    Undergraduate Music Open Day
+                  </h5>
+                  <p class="card-text">
+                    Music open days are aimed at candidates who have made
+                    Kingston University one of their university choices…
+                  </p>
+                  <a
+                    class="learn-more text-uppercase text-right d-block text-decoration-none mr-20"
+                    href="#"
+                  >
+                    Learn more
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-up"
+              class="col-xs-12 my-3 col-md-6 col-lg-4 my-lg-0 justify-content-center d-flex"
+            >
+              <div
+                class="card position-relative d-flex justify-content-evenly rounded-0"
+                style="width: 100%"
+              >
+                <div class="event-top-section">
+                  <img
+                    src="images/events/exhibition-event.png"
+                    class="card-img-top"
+                    alt="Event Photo"
+                  />
+                  <span class="event-icon fa-layers fa-fw position-absolute">
+                    <i class="fa-solid fa-calendar"></i>
+                    <span
+                      class="event-day fa-layers-text fa-inverse"
+                      data-fa-transform="shrink-8 "
+                      >20
+                    </span>
+                    <span
+                      class="event-month fa-layers-text fa-inverse"
+                      data-fa-transform="shrink-8 "
+                      >August
+                    </span>
+                  </span>
+                </div>
+                <div class="card-body text-left position-relative pt-0 mb-13">
+                  <div class="event-time-place d-flex">
+                    <h6 class="event-time mt-10 mb-10">
+                      2:00 P.M-4:00 P.M |
+                      <span class="event-place">Amman Campus</span>
+                    </h6>
+                  </div>
+                  <h5 class="card-title text-capitalize mb-10">
+                    Making Nature' Exhibition At Welcome Collection
+                  </h5>
+                  <p class="card-text">
+                    The question of how humans relate to other animals has
+                    captivated, scientists, ethicists and artists for
+                    centuries...
+                  </p>
+                  <a
+                    class="learn-more text-uppercase text-right d-block text-decoration-none mr-20"
+                    href="#"
+                  >
+                    Learn more
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END EVENTS  -->
+
+      <!-- START BOTTOM BANNER  -->
+      <div
+        id="apply-section"
+        class="apply-section text-center mt-40 mt-lg-80 pb-40 pb-lg-80"
+        style="
+          background: url(images/bannerBot/admissions-photo.png)
+            no-repeat center;
+        "
+      >
+        <p
+          class="apply-text d-flex flex-column align-items-center justify-content-center text-uppercase pt-50 pt-lg-100"
+        >
+          Admissions are now open for 2017/2018 intake
+          <a href="#" class="apply-button text-uppercase d-block mt-30 mt-lg-60"
+            >Apply now</a
+          >
+        </p>
+      </div>
+      <!-- END BOTTOM BANNER  -->
+
+      <!-- START GET IN TOUCH  -->
+      <div
+        id="get-in-touch"
+        class="get-in-touch text-center mb-40 mb-lg-80 pt-40 pt-lg-80"
+      >
+        <div class="container">
+          <div class="d-flex justify-content-center">
+            <form action="" class="d-flex justify-content-center">
+              <div class="contact-form col-sm-10 col-md-10 pb-40 pb-lg-80">
+                <h2 class="pt-40 pt-lg-80 d-inline-block text-uppercase">
+                  Get in touch
+                </h2>
+                <div class="container col-sm-12 col-md-10 mt-30">
+                  <div class="row justify-content-center">
+                    <div class="mb-20 col-12 col-lg-6">
+                      <input
+                        type="text"
+                        class="form-control rounded-0"
+                        id="Full-Name"
+                        placeholder="Full Name"
+                        required
+                      />
+                    </div>
+                    <div class="mb-20 col-12 col-lg-6">
+                      <input
+                        type="text"
+                        class="form-control rounded-0"
+                        id="phone-number"
+                        placeholder="Phone Number e.g. 0123456789"
+                        pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+                        required
+                      />
+                    </div>
+                    <div class="mb-20 col-12">
+                      <input
+                        type="email"
+                        class="form-control rounded-0"
+                        id="email"
+                        placeholder="Email e.g. example@example.com"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                        required
+                      />
+                    </div>
+                    <div class="col-12">
+                      <textarea
+                        class="form-control rounded-0"
+                        id="Text-input"
+                        rows="5"
+                        placeholder="Message"
+                        required
+                      ></textarea>
+                    </div>
+                    <div class="d-block">
+                      <button
+                        type="submit"
+                        class="form-submit-btn btnform-submit-btn text-uppercase mt-30"
+                      >
+                        Submit
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- END GET IN TOUCH  -->
+
+      <!-- START FOOTER  -->
+      <div id="footer" class="footer">
+        <div class="container">
+          <div
+            class="text-white text-start justify-content-center pb-31 pb-lg-62 pt-31 pt-lg-62"
+          >
+            <div class="row mx-auto">
+              <div
+                class="footer-part col-12 col-md-6 col-lg-3 position-relative mt-md-5 mt-lg-0"
+              >
+                <div
+                  class="toggle-foot d-flex justify-content-between align-items-center"
+                >
+                  <h6
+                    class="part-heading text-uppercase position-relative mb-15"
+                  >
+                    Explore
+                  </h6>
+                  <p class="foot-arr d-md-none"></p>
+                </div>
+                <div class="sections d-md-block">
+                  <a href="#">Privacy and Cookies</a>
+                  <a href="#">Legal Information</a>
+                  <a href="#">About the University</a>
+                  <a href="#">News and Events </a>
+                  <a href="#">Research</a>
+                  <a href="#">Schools and Departments</a>
+                  <a href="#">International</a>
+                  <a href="#">Job Vacancies </a>
+                </div>
+              </div>
+              <div
+                class="footer-part col-12 col-md-6 col-lg-3 position-relative mt-md-5 mt-lg-0"
+              >
+                <div
+                  class="toggle-foot d-flex justify-content-between align-items-center"
+                >
+                  <h6
+                    class="part-heading text-uppercase position-relative mb-15"
+                  >
+                    Quick links
+                  </h6>
+                  <p class="foot-arr d-md-none"></p>
+                </div>
+
+                <div class="sections d-md-block">
+                  <a href="#">Online Payments</a>
+                  <a href="#">Library</a>
+                  <a href="#">Alumni</a>
+                  <a href="#">Community Information</a>
+                </div>
+                <div
+                  class="toggle-foot d-flex justify-content-between align-items-center"
+                >
+                  <h6
+                    class="part-heading text-uppercase position-relative mt-md-30 mb-15"
+                  >
+                    Using our site
+                  </h6>
+                  <p class="foot-arr d-md-none"></p>
+                </div>
+
+                <div class="sections d-md-block">
+                  <a class="mt-md-20" href="#">Accessibility</a>
+                  <a href="#">Freedom of Information</a>
+                </div>
+              </div>
+              <div
+                class="footer-part find-us col-12 col-md-6 col-lg-3 position-relative mt-md-5 mt-lg-0"
+              >
+                <div
+                  class="toggle-foot d-flex justify-content-between align-items-center"
+                >
+                  <h6
+                    class="part-heading text-uppercase position-relative mb-15"
+                  >
+                    How to find us
+                  </h6>
+                  <p class="foot-arr d-md-none"></p>
+                </div>
+
+                <div class="sections d-md-block">
+                  <a href="#"
+                    ><i class="fa-solid fa-phone"></i>+ 1 (408) 703 8738</a
+                  >
+                  <a href="#"
+                    ><i class="fa-solid fa-phone"></i>+ 962 6 581 7612</a
+                  >
+                  <a class="footer-email" href="#">
+                    <i class="fa-solid fa-envelope"></i
+                    >info@SciencesUniversity.edu
+                  </a>
+                  <a href="#"><i class="fa-solid fa-envelope"></i>Contact Us</a>
+                  <a href="#"
+                    ><i class="fa-solid fa-location-dot"></i>Find Us</a
+                  >
+                </div>
+              </div>
+              <div
+                class="footer-part col-12 col-md-6 col-lg-3 position-relative mt-md-5 mt-lg-0"
+              >
+                <div class="logo mt-20 mb-40">
+                  <img
+                    src="images/logo/footer-logo.png"
+                    alt="SU University Logo"
+                    class="img-fluid"
+                  />
+                </div>
+                <div
+                  class="toggle-foot d-flex justify-content-between align-items-center"
+                >
+                  <h6
+                    class="part-heading text-uppercase position-relative mb-15"
+                  >
+                    Follow Us
+                  </h6>
+                  <p class="foot-arr d-md-none"></p>
+                </div>
+
+                <div class="sections footer-icons d-md-block m-md-0">
+                  <a class="fotter-icons" href="#"
+                    ><i class="fa-brands fa-linkedin-in"></i
+                  ></a>
+                  <a class="fotter-icons" href="#"
+                    ><i class="fa-brands fa-youtube"></i
+                  ></a>
+                  <a class="fotter-icons" href="#"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                  <a class="fotter-icons" href="#"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                  <a class="fotter-icons" href="#"
+                    ><i class="fa-brands fa-facebook-f"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rights text-center text-white container-fluid py-2">
+          <span>&copy;</span> 2017 ScienceUniversity. All Rights Reserved.
+        </div>
+      </div>
+
+      <!-- END FOOTER  -->
+    </div>
+    <div class="scroll-top">
+      <i class="fa-solid fa-circle-up"></i>
+    </div>
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/odometer@0.4.8/odometer.js"></script>
+    <script src="js/su-homapage.js"></script>
+  </body>
+</html>

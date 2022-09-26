@@ -1,0 +1,32 @@
+:root {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+@import "helpers/helpers.scss";
+
+/* -----> START HEADER <------ */
+@import "header/header.scss";
+/* -----> END HEADER <------  */
+/**/
+/**/
+/* -----> START CONTENT <------ */
+@import "content/content.scss";
+/* -----> END CONTENT <------ */
+/**/  
+
+/**/
+/* -----> START FOOTER <------  */
+@import "footer/footer.scss";
+/* -----> END FOOTER <------  */
+
+// 16px
+// 0-->0
+// 1-->4
+// 2-->8
+// 3-->16
+// 4-->24
+// 5-->48

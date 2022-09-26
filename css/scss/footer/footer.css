@@ -1,0 +1,126 @@
+.footer {
+  background-color: #021a4f;
+  font-weight: 600;
+}
+.footer .footer-part {
+  border-left: 0.0625rem solid #4d4d4d;
+}
+.footer .footer-part .toggle-foot h6 {
+  color: #e4c800;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.0582rem;
+}
+.footer .footer-part .sections {
+  font-size: 0.875em;
+}
+.footer .footer-part .sections a {
+  font-size: 0.875rem;
+  letter-spacing: 0.05125rem;
+  word-break: break-all;
+  display: block;
+  width: fit-content;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0 !important;
+  margin-bottom: 0.625rem;
+}
+.footer .footer-part .sections a:hover {
+  display: block;
+}
+.footer .footer-part .sections.footer-icons a {
+  display: inline;
+}
+.footer .footer-part .sections.footer-icons a svg {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+.footer .footer-part .sections svg {
+  margin-right: 0.625rem;
+}
+.footer .footer-part.find-us .sections a {
+  line-height: 1.75rem;
+}
+.footer .rights {
+  background-color: #223663;
+  font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+  .footer .footer-part a:not(a.fotter-icons) {
+    position: relative;
+  }
+  .footer .footer-part a:not(a.fotter-icons)::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    background-color: #e4c800;
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+  .footer .footer-part a:not(a.fotter-icons):hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  .footer .footer-part a:not(a.fotter-icons).active::before {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  .footer .footer-part a:not(a.fotter-icons)::before {
+    bottom: -0.3125rem;
+  }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+  .footer .footer-part .sections .footer-email {
+    display: flex;
+    align-items: center;
+    font-size: 0.69rem;
+  }
+  .footer .footer-part .sections .footer-email svg {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+  .footer .rights {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 399px) {
+  .footer .rights {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .footer-part {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-part .toggle-foot .part-heading {
+    margin-bottom: 1.5rem;
+  }
+  .footer-part .toggle-foot .foot-arr {
+    transition: 1s ease;
+    width: 0rem;
+    height: 0rem;
+    border-left: 0.625rem solid transparent;
+    border-right: 0.625rem solid transparent;
+    border-top: 0.625rem solid #e4c800;
+  }
+  .footer-part .toggle-foot .foot-arr.active-rot {
+    transform: rotate(180deg);
+    transition: 1s ease;
+  }
+  .footer-part .sections {
+    display: none;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+  .footer-part .logo {
+    order: 1;
+  }
+}/*# sourceMappingURL=footer.css.map */

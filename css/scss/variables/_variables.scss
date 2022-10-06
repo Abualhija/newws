@@ -1,0 +1,42 @@
+@import "../colors/colors";
+
+// Color system
+//
+$primary: $oxford-blue;
+$secondary: $yellow-munsell;
+
+// Options
+//
+$enable-rounded: false;
+
+// Links
+//
+$link-color: $white;
+$link-hover-color: none;
+$link-hover-decoration: none;
+
+// Typography
+//
+$font-weight-SemiBold: 600;
+$font-weight-ExtraBold: 800;
+
+$h2-font-size: 2.25rem;
+
+// Buttons + Forms
+//
+$input-btn-padding-y: 0.5625rem;
+$input-btn-padding-x: 0.625rem;
+
+// Navs
+//
+$navbar-toggler-padding-x: 0.25rem;
+
+// Cards
+//
+
+$card-border-color: $border-card;
+// Carousel
+//
+$carousel-control-opacity: 1;
+$carousel-indicator-width:           0.625rem ;
+$carousel-indicator-height:          0.625rem ;

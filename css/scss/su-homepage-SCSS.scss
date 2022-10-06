@@ -1,7 +1,11 @@
+@import "variables/variables";
+@import "../bootstrap-scss/bootstrap.scss";
+
 :root {
   font-size: 16px;
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -16,7 +20,7 @@ body {
 /* -----> START CONTENT <------ */
 @import "content/content.scss";
 /* -----> END CONTENT <------ */
-/**/  
+/**/
 
 /**/
 /* -----> START FOOTER <------  */
